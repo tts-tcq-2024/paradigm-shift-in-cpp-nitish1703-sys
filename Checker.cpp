@@ -11,7 +11,7 @@ bool isChargeRateOutOfRange(float chargeRate) {
     return (chargeRate > 0.8);
 }
 bool isEverythingOk(float temperature, float soc, float chargeRate){
-if (isTemperatureOutOfRange(temperature)) ) {
+if (isTemperatureOutOfRange(temperature)) {
         cout << "Temperature out of range!\n";
         return false;
     }
