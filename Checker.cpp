@@ -25,7 +25,7 @@ if (isTemperatureOutOfRange(temperature)) ) {
     }
 }
 bool batteryIsOk(float temperature, float soc, float chargeRate) {
-    if (isEverythingOk(temperature, soc, charge)){
+    if (isEverythingOk(temperature, soc, chargeRate)){
 	return false;
 	}
  
