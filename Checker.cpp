@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cassert>
 using namespace std;
+
 bool isTemperatureOutOfRange(float temperature) {
     return (temperature < 0 || temperature > 45);
 }
@@ -23,6 +24,7 @@ if (isTemperatureOutOfRange(temperature)) {
         cout << "Charge Rate out of range!\n";
         return false;
     }
+	return true;
 }
 bool batteryIsOk(float temperature, float soc, float chargeRate) {
     if (isEverythingOk(temperature, soc, chargeRate)){
