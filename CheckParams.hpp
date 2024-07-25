@@ -21,9 +21,10 @@ namespace BMS
         GERMAN = 1
     };
 
-	static std::vector<std::vector<std::string>> message = { { "OK.", "OK."},
-														{ "WARNING: Parameter is in border range.", "WARNING: Parameter is in the limit range."},
-														{ "ERROR: Not in Range! Please check.", "ERROR: Not within range! Please check."}
+	static std::vector<std::vector<std::string>> message = { 
+             { "OK.", "OK."},
+	     { "WARNING: Parameter is in border range.", "WARNUNG: Parameter liegt im Grenzbereich."},
+	     { "ERROR: Not in Range! Please check.", "ERROR: Not within range! Please check."}
 													  };
 }
 #endif 
